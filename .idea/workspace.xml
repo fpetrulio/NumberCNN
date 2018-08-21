@@ -2,9 +2,563 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d7b0f1-5f9f-41da-bed0-c0344737e19e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NumberCNN.iml" afterPath="$PROJECT_DIR$/.idea/NumberCNN.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-001.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-002.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-003.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-004.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-005.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-006.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-007.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-008.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-009.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-010.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-011.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-012.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-013.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-014.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-016.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-017.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-018.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-019.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-020.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-021.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-022.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-023.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-024.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-025.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-026.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-027.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-028.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-029.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-030.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-031.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-032.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-033.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-034.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-035.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-036.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-037.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-038.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-039.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-040.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-041.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-042.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-043.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-044.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-045.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-046.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-047.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-048.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-049.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-050.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-051.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-052.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-053.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-054.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/0/._img001-055.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-001.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-002.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-003.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-004.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-005.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-006.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-007.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-008.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-009.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-010.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-011.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-012.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-013.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-014.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-016.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-017.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-018.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-019.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-020.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-021.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-022.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-023.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-024.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-025.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-026.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-027.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-028.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-029.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-030.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-031.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-032.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-033.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-034.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-035.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-036.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-037.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-038.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-039.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-040.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-041.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-042.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-043.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-044.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-045.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-046.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-047.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-048.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-049.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-050.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-051.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-052.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-053.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-054.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/1/._img002-055.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-001.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-002.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-003.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-004.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-005.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-006.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-007.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-008.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-009.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-010.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-011.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-012.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-013.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-014.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-016.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-017.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-018.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-019.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-020.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-021.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-022.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-023.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-024.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-025.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-026.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-027.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-028.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-029.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-030.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-031.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-032.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-033.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-034.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-035.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-036.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-037.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-038.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-039.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-040.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-041.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-042.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-043.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-044.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-045.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-046.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-047.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-048.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-049.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-050.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-051.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-052.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-053.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-054.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/2/._img003-055.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-001.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-002.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-003.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-004.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-005.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-006.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-007.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-008.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-009.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-010.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-011.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-012.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-013.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-014.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-016.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-017.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-018.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-019.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-020.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-021.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-022.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-023.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-024.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-025.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-026.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-027.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-028.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-029.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-030.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-031.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-032.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-033.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-034.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-035.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-036.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-037.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-038.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-039.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-040.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-041.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-042.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-043.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-044.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-045.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-046.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-047.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-048.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-049.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-050.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-051.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-052.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-053.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-054.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/3/._img004-055.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-001.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-002.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-003.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-004.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-005.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-006.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-007.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-008.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-009.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-010.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-011.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-012.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-013.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-014.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-016.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-017.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-018.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-019.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-020.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-021.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-022.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-023.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-024.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-025.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-026.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-027.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-028.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-029.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-030.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-031.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-032.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-033.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-034.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-035.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-036.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-037.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-038.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-039.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-040.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-041.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-042.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-043.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-044.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-045.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-046.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-047.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-048.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-049.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-050.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-051.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-052.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-053.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-054.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/4/._img005-055.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-001.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-002.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-003.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-004.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-005.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-006.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-007.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-008.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-009.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-010.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-011.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-012.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-013.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-014.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-016.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-017.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-018.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-019.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-020.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-021.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-022.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-023.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-024.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-025.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-026.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-027.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-028.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-029.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-030.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-031.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-032.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-033.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-034.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-035.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-036.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-037.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-038.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-039.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-040.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-041.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-042.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-043.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-044.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-045.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-046.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-047.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-048.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-049.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-050.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-051.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-052.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-053.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-054.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/5/._img006-055.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-001.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-002.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-003.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-004.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-005.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-006.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-007.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-008.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-009.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-010.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-011.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-012.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-013.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-014.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-016.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-017.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-018.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-019.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-020.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-021.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-022.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-023.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-024.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-025.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-026.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-027.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-028.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-029.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-030.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-031.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-032.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-033.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-034.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-035.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-036.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-037.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-038.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-039.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-040.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-041.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-042.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-043.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-044.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-045.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-046.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-047.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-048.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-049.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-050.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-051.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-052.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-053.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-054.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/6/._img007-055.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-001.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-002.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-003.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-004.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-005.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-006.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-007.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-008.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-009.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-010.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-011.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-012.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-013.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-014.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-016.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-017.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-018.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-019.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-020.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-021.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-022.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-023.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-024.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-025.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-026.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-027.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-028.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-029.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-030.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-031.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-032.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-033.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-034.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-035.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-036.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-037.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-038.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-039.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-040.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-041.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-042.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-043.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-044.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-045.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-046.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-047.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-048.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-049.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-050.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-051.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-052.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-053.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-054.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/7/._img008-055.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-001.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-002.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-003.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-004.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-005.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-006.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-007.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-008.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-009.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-010.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-011.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-012.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-013.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-014.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-016.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-017.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-018.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-019.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-020.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-021.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-022.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-023.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-024.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-025.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-026.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-027.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-028.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-029.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-030.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-031.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-032.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-033.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-034.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-035.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-036.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-037.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-038.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-039.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-040.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-041.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-042.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-043.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-044.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-045.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-046.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-047.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-048.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-049.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-050.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-051.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-052.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-053.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-054.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/8/._img009-055.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-001.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-002.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-003.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-004.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-005.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-006.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-007.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-008.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-009.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-010.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-011.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-012.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-013.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-014.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-015.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-016.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-017.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-018.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-019.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-020.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-021.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-022.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-023.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-024.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-025.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-026.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-027.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-028.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-029.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-030.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-031.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-032.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-033.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-034.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-035.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-036.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-037.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-038.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-039.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-040.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-041.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-042.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-043.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-044.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-045.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-046.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-047.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-048.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-049.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-050.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-051.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-052.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-053.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-054.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/TestSet/9/._img010-055.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dataset/rete.py" afterPath="$PROJECT_DIR$/Dataset/rete.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,19 +574,70 @@
       </usages-collector>
     </session>
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="rete.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dataset/rete.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <folding>
+                <element signature="e#34#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.h5" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dataset/model.h5">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="68">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Dataset/rete.py" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-4" />
+    <option name="y" value="1" />
+    <option name="width" value="1376" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -54,7 +659,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -67,6 +672,34 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="rete" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dataset" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NumberCNN" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dataset/rete.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.rete" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -82,28 +715,105 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Dataset/TestSet/0/img001-042.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/TestSet/0/img001-043.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/TestSet/0/img001-041.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/TestSet/0/._img001-002.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/TestSet/0/img001-040.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/TestSet/0/._img001-040.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/TestSet/0/._img001-001.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/keras_preprocessing/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python/biometria/restore_and_predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/model.h5">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="68">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/rete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="e#34#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
