@@ -73,11 +73,6 @@ print("Modello salvato")
 
 import numpy as np
 
-# carichiamo il modello
-classifier = load_model("model.h5")
-print("Caricamento modello")
-
-classifier = load_model("model.h5")
 print('Test del modello')
 
 print(classifier.evaluate_generator(test_set,
@@ -87,26 +82,3 @@ print(classifier.evaluate_generator(test_set,
                               verbose=1))
 
 print(classifier.predict_generator(test_set, steps=120, verbose=1))
-'''
-from keras.preprocessing import image
-
-# carichiamo l'immagine da testare e successivamente facciamo la predizione 
-test_image = image.load_img('/Users/lorenzovalente/Desktop/evaluation/vecchi/Vincenzo_old.jpg', target_size=(64, 64))
-test_image = image.img_to_array(test_image)
-test_image = np.expand_dims(test_image, axis=0)
-# facciamo la predizione per vedere se l'immagine contiene un bambino o un adulto
-result = classifier.predict(test_image)
-
-print("result")
-print(result)
-
-# se il rilultato della predizione è uguale a 1 allora è bambino
-
-if result[0][0] == 1:
-    prediction = 'young'
-    print(prediction)
-# altrimenti se è 0 è adulto
-else:
-    prediction = 'old'
-    print(prediction)
-'''
