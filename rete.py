@@ -33,23 +33,25 @@ classifier.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['
 # ridimensionamento e zoom 
 from keras.preprocessing.image import ImageDataGenerator
 
-train_datagen = ImageDataGenerator(rescale=1. / 255,
-                                   shear_range=0.2,
-                                   zoom_range=0.2,
-                                   horizontal_flip=True)
+train_datagen = ImageDataGenerator(rescale=1. / 255 #,
+                                   #shear_range=0.2,
+                                   #zoom_range=0.2,
+                                   #horizontal_flip=True
+                                   )
+
 test_datagen = ImageDataGenerator(rescale=1. / 255)
 
 # andiamo a settare il training set passando la path, la dimensione a cui tutte 
 # le immagini devono essere ridimensionate (64,64) e la classificazione che sarà binaria
 training_set = train_datagen.flow_from_directory('Dataset/TrainingSet',
                                                  target_size=(128, 128),
-                                                 batch_size=100,
+                                                 batch_size=50,
                                                  class_mode='categorical')
 
 # la stessa cosa del training set la facciamo per il test set
 test_set = test_datagen.flow_from_directory('Dataset/TestSet',
                                             target_size=(128, 128),
-                                            batch_size=32,
+                                            batch_size=50,
                                             class_mode='categorical')
 # impostiamo per la fase di fit il training set, il numero di immagini del training (3338)
 # il numero di iterazioni (5), il test set e il numero di immagini nel test set (856)
@@ -58,10 +60,11 @@ test_set = test_datagen.flow_from_directory('Dataset/TestSet',
 
 
 classifier.fit_generator(training_set,
-                         steps_per_epoch=390,
+                         steps_per_epoch=480,
                          epochs=5,
                          validation_data=test_set,
-                         validation_steps=160)
+                         validation_steps=160,
+                         shuffle=True)
 
 #classifier.fit(training_set, y_train, validation_data=(test_set, y_test), epochs=10, batch_size=200)
 # serializza la struttura della rete neurale e i pesi in HDF5 e salva il modello
@@ -74,9 +77,22 @@ import numpy as np
 classifier = load_model("model.h5")
 print("Caricamento modello")
 
-print(classifier)
+classifier = load_model("model.h5")
+test_datagen = ImageDataGenerator(rescale=1. / 255)
+test_set = test_datagen.flow_from_directory('Dataset/TestSet',
+                                            target_size=(128, 128),
+                                            batch_size=64,
+                                            class_mode='categorical')
 
-# fine importazione
+print('Test del modello')
+
+print(classifier.evaluate_generator(test_set,
+                              steps=120,
+                              #workers=5,
+                              #use_multiprocessing=True,
+                              verbose=1))
+
+print(classifier.predict_generator(test_set, steps=120, verbose=1))
 '''
 from keras.preprocessing import image
 

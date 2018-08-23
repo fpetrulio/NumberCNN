@@ -13,6 +13,10 @@ from keras.preprocessing.image import ImageDataGenerator
 from keras.preprocessing import image
 
 
+
+classifier = load_model("model.h5")
+print("Caricamento modello")
+
 classifier = load_model("model.h5")
 test_datagen = ImageDataGenerator(rescale=1. / 255)
 test_set = test_datagen.flow_from_directory('Dataset/TestSet',
@@ -23,9 +27,9 @@ test_set = test_datagen.flow_from_directory('Dataset/TestSet',
 print('Test del modello')
 
 print(classifier.evaluate_generator(test_set,
-                              steps=160,
+                              steps=120,
                               #workers=5,
                               #use_multiprocessing=True,
                               verbose=1))
 
-print(classifier.predict_generator(test_set, steps=160, verbose=1))
+print(classifier.predict_generator(test_set, steps=120, verbose=1))
