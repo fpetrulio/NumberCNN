@@ -14,7 +14,7 @@ from keras.preprocessing import image
 
 
 classifier = load_model("model.h5")
-test_datagen = ImageDataGenerator()
+test_datagen = ImageDataGenerator(rescale=1. / 255)
 test_set = test_datagen.flow_from_directory('Dataset/TestSet',
                                             target_size=(128, 128),
                                             batch_size=64,
