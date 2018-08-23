@@ -41,13 +41,13 @@ test_datagen = ImageDataGenerator(rescale=1. / 255)
 
 # andiamo a settare il training set passando la path, la dimensione a cui tutte 
 # le immagini devono essere ridimensionate (64,64) e la classificazione che sarà binaria
-training_set = train_datagen.flow_from_directory('../Dataset/TrainingSet',
+training_set = train_datagen.flow_from_directory('Dataset/TrainingSet',
                                                  target_size=(128, 128),
-                                                 batch_size=32,
+                                                 batch_size=100,
                                                  class_mode='categorical')
 
 # la stessa cosa del training set la facciamo per il test set
-test_set = test_datagen.flow_from_directory('../Dataset/TestSet',
+test_set = test_datagen.flow_from_directory('Dataset/TestSet',
                                             target_size=(128, 128),
                                             batch_size=32,
                                             class_mode='categorical')
