@@ -78,12 +78,6 @@ classifier = load_model("model.h5")
 print("Caricamento modello")
 
 classifier = load_model("model.h5")
-test_datagen = ImageDataGenerator(rescale=1. / 255)
-test_set = test_datagen.flow_from_directory('Dataset/TestSet',
-                                            target_size=(128, 128),
-                                            batch_size=64,
-                                            class_mode='categorical')
-
 print('Test del modello')
 
 print(classifier.evaluate_generator(test_set,
