@@ -1,35 +1,22 @@
 # Importiamo le librerie di Keras
-from keras.models import Sequential, load_model
-from keras.layers import Conv2D
-from keras.layers import MaxPooling2D
-from keras.layers import Flatten
-from keras.layers import Dense
-from keras import optimizers
-from keras.models import model_from_json
-import PIL
-import numpy
-from keras.utils import np_utils
+from keras.models import load_model
 from keras.preprocessing.image import ImageDataGenerator
-from keras.preprocessing import image
 
 
 
+#carichiamo il modello salvato
 classifier = load_model("model.h5")
 print("Caricamento modello")
 
-classifier = load_model("model.h5")
+#ridimensioniamo otteniamo il dataset di test
 test_datagen = ImageDataGenerator(rescale=1. / 255)
 test_set = test_datagen.flow_from_directory('Dataset/TestSet',
                                             target_size=(128, 128),
-                                            batch_size=50,
+                                            batch_size=40,
                                             class_mode='categorical')
 
 print('Test del modello')
-
-print(classifier.evaluate_generator(test_set,
-                              steps=120,
-                              #workers=5,
-                              #use_multiprocessing=True,
-                              verbose=1))
-
-print(classifier.predict_generator(test_set, steps=120, verbose=1))
+#valutiamo l'accuratezza del modello
+valutazione = classifier.evaluate_generator(test_set,steps=170,verbose=1)
+print("L'accuratezza del modello è ",valutazione[1],"Il valore di loss è ", valutazione[0])
+#prediction=classifier.predict_generator(test_set, steps=85, verbose=1)

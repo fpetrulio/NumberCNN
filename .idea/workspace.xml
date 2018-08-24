@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d7b0f1-5f9f-41da-bed0-c0344737e19e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/model.h5" afterPath="$PROJECT_DIR$/model.h5" />
       <change beforePath="$PROJECT_DIR$/rete.py" afterPath="$PROJECT_DIR$/rete.py" />
       <change beforePath="$PROJECT_DIR$/test_rete.py" afterPath="$PROJECT_DIR$/test_rete.py" />
@@ -26,12 +25,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_rete.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_rete.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_rete.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="224">
+              <caret line="20" column="75" lean-forward="false" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+              <folding>
+                <element signature="e#34#69#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,54 +40,20 @@
       <file leaf-file-name="ReteOttimizzata.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../rete neurale/ReteOttimizzata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="primo_dataset_bayes_count_vectorizer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Dropbox/IA (1)/progetti/bufala_script/script_tesina/primo_dataset/primo_dataset_bayes_count_vectorizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
-              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rete.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rete.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="70" column="41" lean-forward="false" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
-              <folding>
-                <element signature="e#34#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/python/biometria/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="datasetFL.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/python/biometria/datasetFL.py">
+      <file leaf-file-name="rete.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rete.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1206">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="204">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#35#70#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,12 +75,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Dataset/rete.py" />
-        <option value="$PROJECT_DIR$/test_rete.py" />
         <option value="$PROJECT_DIR$/rete.py" />
+        <option value="$PROJECT_DIR$/test_rete.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-4" />
     <option name="y" value="1" />
     <option name="width" value="1376" />
@@ -150,8 +117,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rete (1)">
+  <component name="RunManager" selected="Python.test_rete">
     <configuration name="rete (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,8 +199,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.rete (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_rete" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test_rete" />
+        <item index="1" class="java.lang.String" itemvalue="Python.rete (1)" />
         <item index="2" class="java.lang.String" itemvalue="Python.rete" />
       </list>
     </recent_temporary>
@@ -255,7 +222,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -263,7 +230,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3527559" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -282,12 +249,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rete.py</url>
-          <line>2</line>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
@@ -295,9 +256,67 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test_rete.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <folding>
+            <element signature="e#34#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../rete neurale/ReteOttimizzata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/IA (1)/progetti/bufala_script/script_tesina/primo_dataset/primo_dataset_bayes_count_vectorizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python/biometria/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/python/biometria/datasetFL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="41" lean-forward="false" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+          <folding>
+            <element signature="e#35#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_rete.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="e#34#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -306,7 +325,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#34#48#0" expanded="true" />
+            <element signature="e#35#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -345,16 +364,8 @@
     <entry file="file://$PROJECT_DIR$/Dataset/rete.py" />
     <entry file="file://$PROJECT_DIR$/../../rete neurale/ReteOttimizzata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_rete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -364,14 +375,14 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Dropbox/IA (1)/progetti/bufala_script/script_tesina/primo_dataset/primo_dataset_bayes_count_vectorizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
+        <state relative-caret-position="17">
           <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="52" />
           <folding />
         </state>
@@ -379,20 +390,30 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/python/biometria/datasetFL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1206">
+        <state relative-caret-position="85">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rete.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="70" column="41" lean-forward="false" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+        <state relative-caret-position="204">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
-            <element signature="e#34#48#0" expanded="true" />
+            <element signature="e#35#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_rete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="20" column="75" lean-forward="false" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+          <folding>
+            <element signature="e#34#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
