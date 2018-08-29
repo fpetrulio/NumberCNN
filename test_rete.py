@@ -1,7 +1,8 @@
 # Importiamo le librerie di Keras
 from keras.models import load_model
 from keras.preprocessing.image import ImageDataGenerator
-
+import numpy as np
+from sklearn.metrics import confusion_matrix, classification_report
 
 
 #carichiamo il modello salvato
@@ -22,10 +23,10 @@ print("L'accuratezza del modello è ",valutazione[1],"Il valore di loss è ", va
 #prediction=classifier.predict_generator(test_set, steps=85, verbose=1)
 
 
-Y_pred = model.predict_generator(testset, 2125) # 2125 = num di campioni / batch_size DA CONTROLLARE
+Y_pred = classifier.predict_generator(test_set, 2125) # 2125 = num di campioni / batch_size DA CONTROLLARE
 y_pred = np.argmax(Y_pred, axis=1)
 print('Confusion Matrix')
-print(confusion_matrix(validation_generator.classes, y_pred))
+print(confusion_matrix(test_set.classes, y_pred))
 print('Classification Report')
 target_names = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-print(classification_report(validation_generator.classes, y_pred, target_names=target_names))
+print(classification_report(test_set.classes, y_pred, target_names=target_names))
