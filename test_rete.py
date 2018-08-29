@@ -20,3 +20,12 @@ print('Test del modello')
 valutazione = classifier.evaluate_generator(test_set,steps=170,verbose=1)
 print("L'accuratezza del modello è ",valutazione[1],"Il valore di loss è ", valutazione[0])
 #prediction=classifier.predict_generator(test_set, steps=85, verbose=1)
+
+
+Y_pred = model.predict_generator(testset, 2125) # 2125 = num di campioni / batch_size DA CONTROLLARE
+y_pred = np.argmax(Y_pred, axis=1)
+print('Confusion Matrix')
+print(confusion_matrix(validation_generator.classes, y_pred))
+print('Classification Report')
+target_names = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+print(classification_report(validation_generator.classes, y_pred, target_names=target_names))
