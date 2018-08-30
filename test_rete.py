@@ -14,7 +14,7 @@ test_datagen = ImageDataGenerator(rescale=1. / 255)
 test_set = test_datagen.flow_from_directory('Dataset/TestSet',
                                             target_size=(128, 128),
                                             batch_size=40,
-                                            class_mode='categorical')
+                                            class_mode='categorical', shuffle=False)
 
 print('Test del modello')
 #valutiamo l'accuratezza del modello
@@ -25,11 +25,12 @@ print("L'accuratezza del modello è ",valutazione[1],"Il valore di loss è ", va
 
 
 print('test_set.classes ->',test_set.classes)
-print('test_set.classes_indices ->',test_set.class_indices)
+print('test_set.classes_indices ->', test_set.class_indices)
 print('test_set.samples ->', test_set.samples)
-print('test_set.batch_size ->',test_set.batch_size)
+print('test_set.batch_size ->', test_set.batch_size)
 
-Y_pred = classifier.predict_generator(test_set, test_set.samples // test_set.batch_size) # 2125 = num di campioni / batch_size DA CONTROLLARE
+Y_pred = classifier.predict_generator(test_set, test_set.samples // test_set.batch_size, verbose=1)
+print('Y_pred ->', Y_pred)
 y_pred = np.argmax(Y_pred, axis=1)
 
 
