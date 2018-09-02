@@ -1,7 +1,7 @@
 # Importiamo le librerie di Keras
 
 from keras.models import Sequential
-from keras.layers import Conv2D
+from keras.layers import Conv2D, np
 from keras.layers import MaxPooling2D
 from keras.layers import Flatten
 from keras.layers import Dense
@@ -24,24 +24,24 @@ classifier.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['
 train_datagen = ImageDataGenerator(rescale=1. / 255)
 test_datagen = ImageDataGenerator(rescale=1. / 255)
 
-# andiamo a settare il training set passando la path, la dimensione a cui tutte 
-# le immagini devono essere ridimensionate (128,128), la classificazione che sarà multiclasse, e la batch_size a 40
+# andiamo a settare il training set passando la path, la dimensione a cui tutte
+# le immagini devono essere ridimensionate (128,128), la classificazione che sarà multiclasse, e la batch_size a 50
 training_set = train_datagen.flow_from_directory('Dataset/TrainingSet',
                                                  target_size=(128, 128),
-                                                 batch_size=40,
+                                                 batch_size=50,
                                                  class_mode='categorical')
 
 # la stessa cosa del training set la facciamo per il test set
 test_set = test_datagen.flow_from_directory('Dataset/TestSet',
                                             target_size=(128, 128),
-                                            batch_size=40,
+                                            batch_size=50,
                                             class_mode='categorical')
 
-# impostiamo per la fase di fit il training set, il numero di steps per iterazione(680)
-# il numero di iterazioni (10), il test set e il numero di steps per iterazione (170),
+# impostiamo per la fase di fit il training set, il numero di steps per iterazione(51)
+# il numero di iterazioni (10), il test set e il numero di steps per iterazione (17),
 # e il parametro shuffle che prende le immagini in maniera casuale
 classifier.fit_generator(training_set,
-                         steps_per_epoch=680,
+                         steps_per_epoch=510,
                          epochs=10,
                          validation_data=test_set,
                          validation_steps=170,
